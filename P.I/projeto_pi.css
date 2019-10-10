@@ -1,0 +1,281 @@
+html{
+    scroll-behavior: smooth; /*Faz a tela deslizar suavemente*/
+    overflow-x: hidden; /*tirando a barra de scroll no sentido horizontal*/
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    
+}
+nav {
+    background-color: rgb(138, 235, 59);
+    overflow: hidden;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    float: left;
+
+}
+
+a{
+    padding: 20px;
+    width: 100px;
+    align-content: center;
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+    font-weight: bolder;
+    display: block;
+    position: relative;
+    left: 380%;
+
+}
+
+
+#div_home{
+    background-color: rgb(54, 4, 100);
+    height: 657px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+#div_oque{
+    height: 655px;
+    background-color: rgb(235, 169, 28);
+    display: inline-block;
+    width: 100%;
+}
+#div_porque{
+    height: 655px;
+    background-color: rgb(46, 45, 44);
+    display: inline-block;
+    width: 100%;
+}
+
+#div_materiais{
+    height: 655px;
+    background-color: rgb(153, 155, 229);
+    display: inline-block;
+    width: 100%;
+}
+
+#div_cadastrar{
+    height: 655px;
+    background-color: rgb(120, 230, 93);
+    display: inline-block;
+    width: 100%;    
+}
+
+#div_entrar{
+    height: 455px;
+    background-color: rgb(214, 59, 72);
+    display: inline-block;
+    width: 100%;
+}
+
+.imagem_vaca{
+    position: relative;
+    left: 20%;
+    height: 655px;
+    width:80%;
+}
+
+.informacoes{
+    position: absolute;
+    height: 655px;
+    width:20%;
+    background-color:  rgb(46, 45, 44);
+}
+
+.cadastro{
+    margin-top: 10%;
+}
+
+.cadastro input{
+    position: relative;
+    left: 5%;
+    width: 40%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    outline: none;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.733);
+    font-family: Arial;
+    font-size: 20px;
+   
+}
+/* Editar o botão */
+ .bt_cadastrar{
+    padding: 18px;
+    border-radius: 10px;
+    left: 18%;
+    position: relative;
+    cursor: pointer;
+    background-color: rgba(129, 241, 163, 0.5);
+    outline: none; /*Tirar a caixa que fic em volta do botão*/
+    margin-top: 1%;
+    font-family: cursive;
+    font-size: 18px;
+    color: white;
+    
+}
+.bt_cadastrar:hover{
+    background-color: rgb(114, 243, 183); 
+    transition: all .8s linear;
+} 
+
+#alerta{
+    
+    font-family: arial;
+    left: 17.5%;
+    position: relative;
+}
+
+.porco_cadastro{
+    float: left;
+    position: absolute;
+    left: 114vh;
+    top:454%;
+}
+ h2{
+    position: relative;
+    left: 11%;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 0%;
+    top: 25%;
+    font-family: cursive;
+}
+.rodape{
+    height: 200px;
+    background-color: rgb(46, 45, 44);
+    display: inline-block;
+    width: 100%;
+
+}
+
+#div_entrar input{
+    position: relative;
+    left: 5%;
+    width: 40%;
+    height: 40px;
+    margin-top: 60px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    
+}
+#div_entrar h2{
+    top: 0px;
+    position: relative;
+    left: 11%;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 0%;    
+    font-family: cursive;
+}
+#div_entrar button{
+    padding: 18px;
+    border-radius: 10px;
+    left: 18%;
+    position: relative;
+    cursor: pointer;
+    background-color:rgb(92, 30, 49);
+    outline: none; /*Tirar a caixa que fic em volta do botão*/
+    margin-top: 1%;
+    font-family: cursive;
+    font-size: 18px;
+    color: white;
+    width: 150px;
+
+}
+.bt_entrar:hover{
+    background-color: rgb(92, 30, 49); 
+    transition: all .8s linear;
+}
+
+.animais{
+    width: 150px;
+    position: absolute;   
+    top:229%;
+    left: 2%;
+}
+
+ .texto_bovino{
+    position: relative;
+    top: 17%;
+    left: 15%;
+    color: white;
+    font-family: arial;
+} 
+
+.texto_suino{
+    position: relative;
+    top: 25%;
+    left: 15%;
+    color: white;
+    font-family: arial;
+} 
+
+.texto_aves{
+    position: relative;
+    top: 30%;
+    left: 15%;
+    color: white;
+    font-family: arial;
+} 
+
+.texto_oque{
+    position: relative;
+    top: 5%;
+    margin: 50px;
+    color: white;
+    font-family: Arial;
+    font-size: 35px;
+}
+
+.fabio{
+    width: 150px;
+    position: relative;
+    
+    
+}
+
+#div_materiais a{
+    position: relative;
+    left: 5%;
+}
+.tnm{
+    width: 150px;
+    position: relative;
+    left: 5%;
+}
+
+#div_materiais h2{
+    position: relative;
+    top:0%;
+    left:25%;
+}
+
+
+
