@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>GodOfWar</title>
+</head>
+<body>
+    <header>  
+        <img class="logo" src="logo.godofwar.png" alt="teste">
+     <ul>
+        <li><a href="#div_inicio" class="inicio">Início</a></li>
+        <li><a href="#div_jogos" class="jogos" >Jogos</a></li>
+        <li><a href="#div_historia" class="historia" >História</a></li>
+        <li><a href="#div_videos" class="videos">Vídeos</a></li>
+        <li><a href="#div_cadastrar" class="cadastrar">Cadastre-se</a></li>
+        <li><a href="#div_entrar" class="entrar">Entrar</a></li>
+    </ul>
+</header>
+<div class="tudo">
+    <div id="div_inicio">
+        
+       
+    </div>
+
+    <div id="div_jogos">
+        jogos      
+    </div>
+
+    <div id="div_historia">
+      <div class="imagem_historia_top"> 
+           
+            <input type="image" src="2005.jpg" onclick="primeira_historia()">  
+            <input type="image" src="2007.jpg" onclick="segunda_historia()">
+            <input type="image" src="2007_mobile.jpg"onclick="terceira_historia()"">
+            <input type="image" src="2008.jpg" onclick="quarta_historia()">    
+    
+        </div> 
+        <div id="texto_historia">God of War é uma saga que nasceu em 2005 ainda na época do PS2 e mudou bastante do que conhecemos em termos de jogos de ação. Kratos, seu protagonista, trouxe uma fúria desenfreada e jogabilidade simples e viciante para os controles dos jogadores. O título teve várias sequências, versões portáteis e hoje comemora uma longa história. Entenda melhor os fatos que levaram o Fantasma de Esparta em sua jornada, até onde ele está hoje, na ordem em que os games foram lançados:</div>
+
+        <div class="imagem_historia_bot"> 
+            
+            <input type="image" src="2010.jpg"onclick="quinta_historia()"">  
+            <input type="image" src="2010_2.jpg" onclick="sexta_historia()"> 
+            <input type="image" src="2013.jpg" onclick="setima_historia()"> 
+            <input type="image" src="2018.jpg" onclick="oitava_historia()">
+       
+        </div>
+        </div>
+
+    <div id="div_videos">
+        videos    
+    </div>
+
+     <div id="cadastro_login">
+        <div id="div_cadastrar">
+            <center>
+                <div class="caixa_cadastro">
+                    <h1>CADASTRE-SE</h1>
+                    <input type="text" id="nome" placeholder="Nome completo"><br><br>
+                    <input type="text" id="usuario"placeholder="Nome de usuário"><br><br>
+                    <input type="text" id="email"placeholder="E-mail"><br><br>
+                    <input type="password" id="senha"placeholder="Senha"><br><br>
+                    <input type="password" id="confirmar_senha"placeholder="Confirmar senha"><br><br>
+                    <button onclick="cadastrar()">cadastrar</button>
+                    <div id="mensagem"></div>
+                </div>
+            </center>    
+        </div>
+             <div id="div_entrar">
+            <center>
+                 <div class="caixa_entrar">
+                        <h1>ENTRE</h1>
+                <input type="text" id="usuario"placeholder="Nome de usuário"><br><br>  
+                <input type="text" id="senha"placeholder="Senha"><br><br>
+                <button onclick="entrar()">Entrar</button>
+                 </div>
+            </center> 
+             </div>
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript" src="funcao_cadastro.js"></script>
+

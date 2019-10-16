@@ -1,0 +1,209 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: Arial; 
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(54, 33, 6);
+}
+
+
+header{
+    background-color: rgba(0, 0, 0, 0.404);
+    overflow: hidden;
+    width: 100%;
+    height: 60px; 
+    transition: all 2s linear;    
+}
+header:hover{
+    background: rgb(0, 0, 0);/*Cor final*/
+    transition: all 2s linear; 
+}
+.logo{
+    width: 500px;    
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 0.5%;
+  
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;    
+    list-style: none; 
+    margin-left:auto;
+    margin-right: auto;     
+    
+}
+
+ li{    
+    margin-left:140px;
+    position: relative;  
+    display: inline;
+    text-align: center;
+    line-height: 60px;/*Linha verticalmente o texto referente ao tamanho colocado*/
+    
+    
+} 
+  a{
+    position: relative;    
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+
+}  
+
+#div_inicio{
+    background-image: url(GodOfWar.jpg);
+    /* background-size: cover;  */
+    display: block;
+    height:655px;
+}
+
+
+
+#div_jogos{
+    background-color: rgb(41, 179, 233);
+    display: block;
+    height:655px;
+}
+
+#div_historia{
+    background-image: url(img_historia.jpg);
+    background-size: cover;
+    display: block;
+    height:655px;
+}
+
+#div_videos{
+    background-color: rgb(233, 134, 41);
+    opacity: 0.5;
+    display: block;
+    height:655px;
+}
+
+/* AQUI COMEÇA O CSS DO CADASTRO E LOGIN */
+
+#cadastro_login{
+    background-color: black;
+    height:655px;
+     
+
+   
+}
+
+#div_cadastrar{
+    background-color: rgba(51, 51, 49, 0.438);
+    width: 60%;
+    height:655px;
+    float: left; 
+     
+   
+}
+
+#div_cadastrar input{
+    width: 450px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+::placeholder{
+    font-family: arial;
+    color: brown;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+
+#div_entrar{
+    background-color: rgba(51, 51, 49, 0.438);
+    position: relative;
+    width: 40%;   
+    height:655px; 
+    float: left;
+ }
+ #div_entrar input{
+    width: 450px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    
+}
+
+#cadastro_login{
+    background-image: url(imagem_cadastrar.jpg);
+    
+}
+
+.caixa_cadastro h1{
+    margin-top: 18%
+
+}
+ 
+.caixa_entrar h1{
+    margin-top: 28%
+}
+
+h1{
+    font-family: Arial;
+    color: rgb(139, 127, 74);
+}
+
+button{
+    height: 40px;
+    width: 90px;
+    
+}
+ 
+
+/* AQUI OCMEÇA O CSS DA HISTÓRIA */
+ 
+ .imagem_historia_top img{
+    width: 200px;
+    height: 150px;
+    margin-left: 105px;
+    opacity: 0.8;  
+    
+}
+ 
+
+.imagem_historia_top input{
+    width: 200px;
+    height: 150px;
+    margin-left: 105px;
+    opacity: 0.8;   
+}
+
+.imagem_historia_bot input{
+    width: 200px;
+    height: 150px;
+    margin-left: 105px;
+    margin-top: 355px;  
+}
+
+#texto_historia {
+    position: absolute;
+    margin-top:5px; 
+    left: 5%; 
+    font-weight: bolder;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    width: 1150px;
+    height: 300px;
+    background-color: rgba(255, 214, 214, 0.438);
+    padding: 20px;
+    color: rgb(100, 13, 13);
+    font-family: arial;
+    border-radius: 20px;
+}
+
